@@ -1,0 +1,133 @@
+<!--Así se escribe un comentario Comando: CTRL + K después CTRL + C-->
+<!--Definición del tipo de documento-->
+<!--El archivo principal siempre se debe llamar index.html-->
+<!Doctype html>
+<!--Agregar archivos externos-->
+<head>
+    <!--Titulo del sitio web-->
+    <title>NCT127</title>
+    <link rel="stylesheet"
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rubik">
+    <link href="style.css" rel="stylesheet"> <!--Esto es un archivo externo-->
+    <style>
+        h1{
+            color: rgb(50, 32, 214);
+        }
+        h3{
+            color: rgba(0, 0, 255, 0.623);
+        }
+        p{
+            color: black;
+        }
+    </style>   
+</head>
+<body>
+    <!--body = Estructura de la Página-->
+
+    <!--Crear encabezados-->
+    <h1>NCT127</h1> <!--Nivel más grande de encabezado-->
+    <!--Etiqueta de apertura + contenido + etiqueta de cierre-->
+    <!--Esto es un parrafo-->
+    <p>Mi banda favorita</p>
+    <main>
+        <!--img = image, src = source (fuente imagen)-->
+        <h1 style="color:rgb(45, 0, 128)">Grupo de fans</h1>
+        <img src="https://t1.daumcdn.net/cfile/tistory/997EF44F5EC7E6BF1A" alt="grupo"style="width:500px;height:300px;">
+        <br>
+        <!--enlaces internos y externos-->
+        <em>
+        <a href="#parrafo-1">Párrafo 1</a>
+        <a href="#parrafo-2">Párrafo 2</a>
+        <a href="#parrafo-3">Párrafo 3</a>
+        <a href="#parrafo-4">Parráfo 4</a>
+        </em>
+        <h3 id="parrafo-1">Párrafo 1</h3> 
+        <p>Los nueve miembros de NCT 127 eran parte de SM Rookies, un equipo de aprendices creado por SM Entertainment.5​En enero de 2016, el fundador de SM, Lee Soo-man, anunció planes para un nuevo grupo de chicos con varias subunidades diferentes basadas en diferentes ciudades del mundo.</p> 
+        <h3 id="parrafo-2">Párrafo 2</h3>
+        <p>La nueva subunidad se anunció oficialmente el 1 de julio, la cual incluye a los integrantes Taeyong, Taeil, Jaehyun y Mark, los cuales debutaron previamente en NCT U, junto con tres nuevos miembros: Yuta, Winwin y Haechan.7</p>
+        <h3 id="parrafo-3">Párrafo 3</h3>
+        <p>El 7 de julio de 2016, el grupo su debut en el escenario de M! Countdown, interpretando «Fire Truck» y «Once Again» del EP debut NCT #127,8​ el cual fue publicado digitalmente el 10 de julio y físicamente al siguiente día.9​ El álbum se ubicó en el segundo lugar de Gaon Album Chart,10​ además de posicionarse en el segundo puesto de World Albums Chart de la revista Billboard.1</p>
+        <h3 id="parrafo-4">Párrafo 4</h3>
+        <p>El 29 de julio, NCT 127 lanzó la canción «Taste the Feeling», para SM Station en colaboración con Coca-Cola.12​ El 6 de diciembre, cinco miembros del grupo (Yuta, Taeyong, Jaehyun, Mark y Winwin) lanzaron un vídeo especial, donde bailaron la canción «Good Thing» en colaboración con W Korea.</p>
+        <br> <!--Esto es un salto de línea--> 
+
+       <!--enlace externo-->
+       <p>En este link <a href="https://mx.images.search.yahoo.com/search/images;_ylt=AwrFQJhlwnpjWPwHrHbF8Qt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcxMjAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANpcW5lMmVPb1NkMmlYUk1GU0dvN2FBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4DbXguaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzgEcXVlcnkDbmN0JTIwMTI3JTIwBHRfc3RtcAMxNjY4OTg5NTc0?p=nct+127+&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210MX1451G0" target="_blank" rel="noopener noreferrer">puedes ver más imágenes del grupo.</a></p>
+       <hr> <!--Etiqueta hr = Horizontal Rule-->
+
+        <h3>Listas de canciones</h3>
+        
+       <div> <!--Elemento div-->
+        <p>Las mejores canciones <strong> de NCT127</strong>:</p> <!--strong para hacer la letra negrita-->
+        <!--Listas ordenadas-->
+        <ol class="lista-de-canciones"> <!--ol = ordered list-->
+            <ul> <!--ul = unordered list-->
+                <li>Fire Truck</li> <!--li = list item (elemento de lista)-->
+                <li>Limitless</li> 
+                <li>Chain</li> 
+                <li>Sun & Moon</li>
+            </ul> 
+            
+        </div>
+        
+        <p>miembros <strong>de NCT127</strong> </p> <!--Etiqueta strong para texto negritas-->
+        <!--Listas no ordenadas-->
+            <div style="margin-left:30px"></div>
+            <li>Taeil</li>
+            <li>Johnny</li>
+            <li>Taeyong</li>
+            <li>Yuta</li>
+            <li>Doyoung</li>
+            <li>Jaehyun</li>
+            <li>Mark</li>
+            <li>Jungwoo</li>
+            <li>Haechan</li>
+        </ol>
+
+        <!--Crear enlaces con #. Enlaces muertos o dead links-->
+        <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+            <!--Formulario-->
+            <form action="/enviar-respuesta">
+                <!--Texto y botón enviar-->
+                <input type="text" placeholder="URL de la foto de NCT127" required>
+                <br>
+                <button type="submit">Enviar</button>
+               
+                <!--Botones de radio-->
+                <p>¿conocias esta banda?</p>
+                    <label for="si">
+                        <input id="no" type="radio" value="si" name="nct" checked>si
+                    </label>
+                    <br>
+                    <label for="no">
+                        <input id="no" type="radio" value="no" name="nct" checked>no
+                    </label>
+                    <br>
+
+
+                <!--Casillas de verificación-->
+                <p>¿Qué tipo de musica escuchas?</p>
+                <label for="pop">
+                    <input id="buena" type="checkbox" value="alegre" name="feliz" checked> pop
+                </label>
+                <br>
+                <label for="bachata">
+                    <input id="bailo" type="checkbox" value="feliz" name="energica"> bachata
+                </label>
+                <br>
+                <label for="banda">
+                    <input id="fuerte" type="checkbox" value="buena" name="bailar"> banda
+                </label>
+                <br>         
+            </form>
+    
+    </main>
+</body>
+
+ <!--pie de página-->
+ <footer>
+    <!--Etiqueta small para que el pie de página se vea más pequeño-->
+    <p ><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">@tecnolochicas.mx</a></small></p>
+</footer>
